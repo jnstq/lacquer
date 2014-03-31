@@ -84,7 +84,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rspec>, ["~> 2.0"])
     end
   else
-    s.add_dependency(%q<activesupport>, ["~> 3.0"])
+    s.add_dependency(%q<activesupport>, [">= 3.0"])
     s.add_dependency(%q<i18n>, ["~> 0.4"])
     s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<rake>, [">= 0"])
